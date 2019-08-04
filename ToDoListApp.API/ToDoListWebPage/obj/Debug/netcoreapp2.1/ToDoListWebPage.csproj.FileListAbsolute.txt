@@ -1,0 +1,42 @@
+C:\Users\Erhan Uzar\source\repos\ToDoListWebPage\ToDoListWebPage\bin\Debug\netcoreapp2.1\ToDoListWebPage.deps.json
+C:\Users\Erhan Uzar\source\repos\ToDoListWebPage\ToDoListWebPage\bin\Debug\netcoreapp2.1\ToDoListWebPage.runtimeconfig.json
+C:\Users\Erhan Uzar\source\repos\ToDoListWebPage\ToDoListWebPage\bin\Debug\netcoreapp2.1\ToDoListWebPage.runtimeconfig.dev.json
+C:\Users\Erhan Uzar\source\repos\ToDoListWebPage\ToDoListWebPage\bin\Debug\netcoreapp2.1\ToDoListWebPage.dll
+C:\Users\Erhan Uzar\source\repos\ToDoListWebPage\ToDoListWebPage\obj\Debug\netcoreapp2.1\ToDoListWebPage.csprojAssemblyReference.cache
+C:\Users\Erhan Uzar\source\repos\ToDoListWebPage\ToDoListWebPage\obj\Debug\netcoreapp2.1\ToDoListWebPage.csproj.CoreCompileInputs.cache
+C:\Users\Erhan Uzar\source\repos\ToDoListWebPage\ToDoListWebPage\obj\Debug\netcoreapp2.1\ToDoListWebPage.RazorAssemblyInfo.cache
+C:\Users\Erhan Uzar\source\repos\ToDoListWebPage\ToDoListWebPage\obj\Debug\netcoreapp2.1\ToDoListWebPage.RazorAssemblyInfo.cs
+C:\Users\Erhan Uzar\source\repos\ToDoListWebPage\ToDoListWebPage\obj\Debug\netcoreapp2.1\ToDoListWebPage.AssemblyInfoInputs.cache
+C:\Users\Erhan Uzar\source\repos\ToDoListWebPage\ToDoListWebPage\obj\Debug\netcoreapp2.1\ToDoListWebPage.AssemblyInfo.cs
+C:\Users\Erhan Uzar\source\repos\ToDoListWebPage\ToDoListWebPage\obj\Debug\netcoreapp2.1\ToDoListWebPage.RazorTargetAssemblyInfo.cache
+C:\Users\Erhan Uzar\source\repos\ToDoListWebPage\ToDoListWebPage\bin\Debug\netcoreapp2.1\ToDoListWebPage.pdb
+C:\Users\Erhan Uzar\source\repos\ToDoListWebPage\ToDoListWebPage\obj\Debug\netcoreapp2.1\ToDoListWebPage.dll
+C:\Users\Erhan Uzar\source\repos\ToDoListWebPage\ToDoListWebPage\obj\Debug\netcoreapp2.1\ToDoListWebPage.pdb
+C:\Users\hbas0\Desktop\ToDoListWebPage\ToDoListWebPage\bin\Debug\netcoreapp2.1\ToDoListWebPage.deps.json
+C:\Users\hbas0\Desktop\ToDoListWebPage\ToDoListWebPage\bin\Debug\netcoreapp2.1\ToDoListWebPage.runtimeconfig.json
+C:\Users\hbas0\Desktop\ToDoListWebPage\ToDoListWebPage\bin\Debug\netcoreapp2.1\ToDoListWebPage.runtimeconfig.dev.json
+C:\Users\hbas0\Desktop\ToDoListWebPage\ToDoListWebPage\bin\Debug\netcoreapp2.1\ToDoListWebPage.dll
+C:\Users\hbas0\Desktop\ToDoListWebPage\ToDoListWebPage\bin\Debug\netcoreapp2.1\ToDoListWebPage.pdb
+C:\Users\hbas0\Desktop\ToDoListWebPage\ToDoListWebPage\obj\Debug\netcoreapp2.1\ToDoListWebPage.csprojAssemblyReference.cache
+C:\Users\hbas0\Desktop\ToDoListWebPage\ToDoListWebPage\obj\Debug\netcoreapp2.1\ToDoListWebPage.csproj.CoreCompileInputs.cache
+C:\Users\hbas0\Desktop\ToDoListWebPage\ToDoListWebPage\obj\Debug\netcoreapp2.1\ToDoListWebPage.RazorAssemblyInfo.cache
+C:\Users\hbas0\Desktop\ToDoListWebPage\ToDoListWebPage\obj\Debug\netcoreapp2.1\ToDoListWebPage.RazorAssemblyInfo.cs
+C:\Users\hbas0\Desktop\ToDoListWebPage\ToDoListWebPage\obj\Debug\netcoreapp2.1\ToDoListWebPage.AssemblyInfoInputs.cache
+C:\Users\hbas0\Desktop\ToDoListWebPage\ToDoListWebPage\obj\Debug\netcoreapp2.1\ToDoListWebPage.AssemblyInfo.cs
+C:\Users\hbas0\Desktop\ToDoListWebPage\ToDoListWebPage\obj\Debug\netcoreapp2.1\ToDoListWebPage.RazorTargetAssemblyInfo.cache
+C:\Users\hbas0\Desktop\ToDoListWebPage\ToDoListWebPage\obj\Debug\netcoreapp2.1\ToDoListWebPage.dll
+C:\Users\hbas0\Desktop\ToDoListWebPage\ToDoListWebPage\obj\Debug\netcoreapp2.1\ToDoListWebPage.pdb
+C:\Users\hbas0\Desktop\TodoList\ToDoListApp.API\ToDoListWebPage\bin\Debug\netcoreapp2.1\ToDoListWebPage.deps.json
+C:\Users\hbas0\Desktop\TodoList\ToDoListApp.API\ToDoListWebPage\bin\Debug\netcoreapp2.1\ToDoListWebPage.runtimeconfig.json
+C:\Users\hbas0\Desktop\TodoList\ToDoListApp.API\ToDoListWebPage\bin\Debug\netcoreapp2.1\ToDoListWebPage.runtimeconfig.dev.json
+C:\Users\hbas0\Desktop\TodoList\ToDoListApp.API\ToDoListWebPage\bin\Debug\netcoreapp2.1\ToDoListWebPage.dll
+C:\Users\hbas0\Desktop\TodoList\ToDoListApp.API\ToDoListWebPage\bin\Debug\netcoreapp2.1\ToDoListWebPage.pdb
+C:\Users\hbas0\Desktop\TodoList\ToDoListApp.API\ToDoListWebPage\obj\Debug\netcoreapp2.1\ToDoListWebPage.csprojAssemblyReference.cache
+C:\Users\hbas0\Desktop\TodoList\ToDoListApp.API\ToDoListWebPage\obj\Debug\netcoreapp2.1\ToDoListWebPage.csproj.CoreCompileInputs.cache
+C:\Users\hbas0\Desktop\TodoList\ToDoListApp.API\ToDoListWebPage\obj\Debug\netcoreapp2.1\ToDoListWebPage.RazorAssemblyInfo.cache
+C:\Users\hbas0\Desktop\TodoList\ToDoListApp.API\ToDoListWebPage\obj\Debug\netcoreapp2.1\ToDoListWebPage.RazorAssemblyInfo.cs
+C:\Users\hbas0\Desktop\TodoList\ToDoListApp.API\ToDoListWebPage\obj\Debug\netcoreapp2.1\ToDoListWebPage.AssemblyInfoInputs.cache
+C:\Users\hbas0\Desktop\TodoList\ToDoListApp.API\ToDoListWebPage\obj\Debug\netcoreapp2.1\ToDoListWebPage.AssemblyInfo.cs
+C:\Users\hbas0\Desktop\TodoList\ToDoListApp.API\ToDoListWebPage\obj\Debug\netcoreapp2.1\ToDoListWebPage.RazorTargetAssemblyInfo.cache
+C:\Users\hbas0\Desktop\TodoList\ToDoListApp.API\ToDoListWebPage\obj\Debug\netcoreapp2.1\ToDoListWebPage.dll
+C:\Users\hbas0\Desktop\TodoList\ToDoListApp.API\ToDoListWebPage\obj\Debug\netcoreapp2.1\ToDoListWebPage.pdb
