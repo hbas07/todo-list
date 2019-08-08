@@ -6,7 +6,7 @@
 
 ***Using***
 
- - *-Angular CLI*
+ - *Angular CLI*
  - *ASP .NET Core MVC WEB API*
  - *TypeScript*
  
