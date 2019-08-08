@@ -1,0 +1,62 @@
+<!-- <link href="//maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+<script src="//maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+<script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<!------ Include the above in your HEAD tag ---------->
+
+<!-- <div class="wrapper fadeInDown">
+  <div id="formContent">
+
+    <div class="fadeIn first">
+      <p><font size="6px">LOGIN</font></p>
+    </div>
+
+    <div class="fadeIn second">
+      <img src="../../../assets/svg/indir.svg" id="icon" alt="User Icon" />
+    </div>
+    
+    <form #loginForm="ngForm" (ngSubmit)="login()">
+      <input type="text" id="login" class="fadeIn third" name="userName" [(ngModel)]="loginUser.userName" required placeholder="Username">
+      <input type="password" id="password" class="fadeIn fourth" name="password" [(ngModel)]="loginUser.password" required placeholder="Password">
+      <button class="btn btn-secondary my-2 my-sm-0" type="submit">Login</button>
+
+    </form>
+
+    <div id="formFooter">
+      <a class="underlineHover" href="#">Forgot Password?</a>
+    </div>
+
+  </div>
+</div> -->
+
+<link href="//maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+<script src="//maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+<script src="//code.jquery.com/jquery-1.11.1.min.js"></script>
+<!------ Include the above in your HEAD tag ---------->
+
+<div class="sidenav">
+         <div class="login-main-text">
+            <h1>Todo List<br> Login Page</h1>
+            <h2>Login from here to access.</h2>
+         </div>
+      </div>
+      <div class="main">
+         <div class="col-md-6">
+            <div class="login-form">
+               <form>
+                 <img src="../../../assets/svg/todolist_logo.svg" width="400px" height="275px" >
+                  <div class="form-group">
+                     <label>User Name</label>
+                     <input type="text" id="login" name="userName" [(ngModel)]="loginUser.userName" class="form-control" placeholder="User Name">
+                  </div>
+                  <div class="form-group">
+                     <label>Password</label>
+                     <input type="password" id="password" name="password" [(ngModel)]="loginUser.password"  class="form-control" placeholder="Password">
+                  </div>
+                     <button type="submit" class="btn btn-black" (click)="login()">Login</button>
+                     <button type="submit" class="btn btn-secondary" routerLink="../register">Register</button>                  
+               </form>
+            </div>
+         </div>
+      </div>                             		                            
+
+
