@@ -340,3 +340,8 @@ html {
     background-color: #000 !important;
     color: #fff;
 }
+
+.btn-yellow{
+  background-color:yellow;
+  color:black
+}

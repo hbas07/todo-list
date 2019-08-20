@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\hbas0\\Desktop\\TodoList\\ToDoListApp.API\\ToDoListWebPage\\ToDoListWebPage.csproj": {}
+    "C:\\Users\\hbas0\\Desktop\\TodoList\\ToDoList.API\\ToDoListWebPage\\ToDoListWebPage.csproj": {}
   },
   "projects": {
-    "C:\\Users\\hbas0\\Desktop\\TodoList\\ToDoListApp.API\\ToDoListWebPage\\ToDoListWebPage.csproj": {
+    "C:\\Users\\hbas0\\Desktop\\TodoList\\ToDoList.API\\ToDoListWebPage\\ToDoListWebPage.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\hbas0\\Desktop\\TodoList\\ToDoListApp.API\\ToDoListWebPage\\ToDoListWebPage.csproj",
+        "projectUniqueName": "C:\\Users\\hbas0\\Desktop\\TodoList\\ToDoList.API\\ToDoListWebPage\\ToDoListWebPage.csproj",
         "projectName": "ToDoListWebPage",
-        "projectPath": "C:\\Users\\hbas0\\Desktop\\TodoList\\ToDoListApp.API\\ToDoListWebPage\\ToDoListWebPage.csproj",
+        "projectPath": "C:\\Users\\hbas0\\Desktop\\TodoList\\ToDoList.API\\ToDoListWebPage\\ToDoListWebPage.csproj",
         "packagesPath": "C:\\Users\\hbas0\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\hbas0\\Desktop\\TodoList\\ToDoListApp.API\\ToDoListWebPage\\obj\\",
+        "outputPath": "C:\\Users\\hbas0\\Desktop\\TodoList\\ToDoList.API\\ToDoListWebPage\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Microsoft\\Xamarin\\NuGet\\",

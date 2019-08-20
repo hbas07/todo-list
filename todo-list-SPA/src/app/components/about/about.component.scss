@@ -1,0 +1,223 @@
+$background_color_1: #FFFFFF;
+
+/*
+HTML 5 Template Name: 
+File: About Us - 12 CSS
+Author: OS Templates
+Author URI: https://www.os-templates.com/
+Licence: <a href="https://www.os-templates.com/template-terms">Website Template Licence</a>
+*/
+#about-us {
+	display: block;
+	width: 100%;
+	line-height: 1.6em;
+	#about-intro {
+		margin-bottom: 50px;
+		div {
+			blockquote {
+				position: relative;
+				margin: 0;
+				padding: 0;
+				p {
+					margin: 0;
+					padding: 0 0 0 60px;
+					font-size: 22px;
+					font-style: italic;
+					text-align: justify;
+					line-height: 1.6em;
+					span {
+						position: absolute;
+						top: 0;
+						left: 0;
+						font-size: 120px;
+						line-height: .8em;
+					}
+				}
+			}
+		}
+		.imgr {
+			background-color: $background_color_1;
+			margin: 0;
+		}
+	}
+	#team {
+		margin-bottom: 0;
+		ul {
+			margin: 0;
+			padding: 0;
+			list-style: none;
+			li {
+				margin-bottom: 30px;
+				figure {
+					text-align: center;
+					img {
+						margin-bottom: 15px;
+					}
+					figcaption {
+						p {
+							margin: 0;
+							padding: 0;
+						}
+						.team_name {
+							font-weight: bold;
+						}
+						.team_title {
+							margin: 0;
+							font-size: 11px;
+							line-height: normal;
+						}
+					}
+				}
+			}
+		}
+	}
+}
+
+
+/*
+HTML 5 Template Name: 
+File: 960px Framework CSS
+Author: OS Templates
+Author URI: https://www.os-templates.com/
+Licence: <a href="https://www.os-templates.com/template-terms">Website Template Licence</a>
+*/
+/*----------------------------------------------Half Grid-------------------------------------*/
+/*----------------------------------------------Third Grid-------------------------------------*/
+/*----------------------------------------------Quarter Grid-------------------------------------*/
+/*----------------------------------------------Fifth Grid-------------------------------------*/
+.one_half {
+	display: inline-block;
+	float: left;
+	margin: 0 0 0 20px;
+	list-style: none;
+	width: 470px;
+	&:first-child {
+		margin-left: 0;
+	}
+}
+.one_third {
+	display: inline-block;
+	float: left;
+	margin: 0 0 0 20px;
+	list-style: none;
+	margin: 0 0 0 30px;
+	width: 300px;
+	&:first-child {
+		margin-left: 0;
+	}
+}
+.two_third {
+	display: inline-block;
+	float: left;
+	margin: 0 0 0 20px;
+	list-style: none;
+	margin: 0 0 0 30px;
+	width: 630px;
+	&:first-child {
+		margin-left: 0;
+	}
+}
+.one_quarter {
+	display: inline-block;
+	float: left;
+	margin: 0 0 0 20px;
+	list-style: none;
+	width: 225px;
+	&:first-child {
+		margin-left: 0;
+	}
+}
+.two_quarter {
+	display: inline-block;
+	float: left;
+	margin: 0 0 0 20px;
+	list-style: none;
+	width: 470px;
+	&:first-child {
+		margin-left: 0;
+	}
+}
+.three_quarter {
+	display: inline-block;
+	float: left;
+	margin: 0 0 0 20px;
+	list-style: none;
+	width: 715px;
+	&:first-child {
+		margin-left: 0;
+	}
+}
+.one_fifth {
+	display: inline-block;
+	float: left;
+	margin: 0 0 0 20px;
+	list-style: none;
+	width: 176px;
+	&:first-child {
+		margin-left: 0;
+	}
+}
+.two_fifth {
+	display: inline-block;
+	float: left;
+	margin: 0 0 0 20px;
+	list-style: none;
+	width: 372px;
+	&:first-child {
+		margin-left: 0;
+	}
+}
+.three_fifth {
+	display: inline-block;
+	float: left;
+	margin: 0 0 0 20px;
+	list-style: none;
+	width: 568px;
+	&:first-child {
+		margin-left: 0;
+	}
+}
+.four_fifth {
+	display: inline-block;
+	float: left;
+	margin: 0 0 0 20px;
+	list-style: none;
+	width: 764px;
+	&:first-child {
+		margin-left: 0;
+	}
+}
+.first {
+	margin-left: 0;
+}
+.two_half {
+	display: block;
+	width: 100%;
+	clear: both;
+}
+.three_third {
+	display: block;
+	width: 100%;
+	clear: both;
+}
+.four_quarter {
+	display: block;
+	width: 100%;
+	clear: both;
+}
+.five_fifth {
+	display: block;
+	width: 100%;
+	clear: both;
+}
+
+.navbar-custom{
+    background-color:#1F85DE;
+}
+
+.div-ortala{
+	position:relative;
+	margin:auto;
+      top: 50%;
+      left: 45%;
+}

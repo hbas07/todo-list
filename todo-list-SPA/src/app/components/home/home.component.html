@@ -5,37 +5,50 @@
                 <div class="col-md-4">
                     <h2 class="page-title">
                         <img class="svg" src="assets/svg/file.svg">
-                        <span style="color:white"> Todo List App</span>
+                        <b>
+                        <span style="color:#6ff506;">T</span>
+                        <span style="color:#87cc05;">o</span>
+                        <span style="color:#9fa304;">d</span>
+                        <span style="color:#b77a03;">o</span>
+                        <span style="color:#cf5202;">L</span>
+                        <span style="color:#e72901;">i</span>
+                        <span style="color:#ff0000;">s</span>
+                        <span style="color:#cc332d;">t</span>
+                        <span style="color:#99665a;">A</span>
+                        <span style="color:#669988;">p</span>
+                        <span style="color:#33ccb5;">p</span>
+                    </b>
                     </h2>
                 </div>
                 <div class="col-md-4">
                     <form class="example-form">
-                        <mat-form-field class="example-full-width">
-                            <input matInput placeholder="Add a new task.." #pending style="color: white">
+                        <mat-form-field class="example-full-width" style="color: white">
+                            <input matInput placeholder="Add a new task.." #pending style="color: rgb(255, 255, 255)">
                         </mat-form-field>
                         <div class="text-center">
-                        <button class="homebuttons"mat-raised-button color="primary" type="submit"
-                            (click)="addPendings(pending)">Add</button>
+                            <button class="homebuttons" mat-raised-button color="primary" type="submit"
+                                (click)="addPendings(pending)">Add</button>
                         </div>
                     </form>
                 </div>
                 <div class="col-md-4 text-center mt-4">
-                    <button class="homebuttons"mat-raised-button color="primary" type="submit"
-                            (click)="logOut()" routerLink="../login">LogOut</button>
+                    <button class="homebuttons" mat-raised-button color="primary" type="submit" (click)="logOut()"
+                        routerLink="../login">LogOut</button>
                 </div>
             </div>
             <div class="row mt-4">
                 <div class="col-md-12">
-                    <mat-card class="d-flex">
+                    <mat-card class="d-flex" style="background-color: rgb(81, 235, 57)">
                         <div class="example-container">
-                            <h5>To do</h5>
+                            <h5 style="text-align: center"><b>To do</b></h5>
 
                             <div cdkDropList #pendingList="cdkDropList" [cdkDropListData]="data.pendings"
                                 [cdkDropListConnectedTo]="[inProgressList]" class="example-list"
                                 (cdkDropListDropped)="drop($event)">
-                                <div class="example-box" *ngFor="let item of data.pendings" cdkDrag>
+                                <div class="example-box" style="background-color:rgba(193, 93, 0, 0.755)"
+                                    *ngFor="let item of data.pendings" cdkDrag>
                                     <img class="svg" src="assets/svg/clock.svg">
-                                    <span class="todo-title">{{item.todo}}</span>
+                                    <span class="todo-title" style="color:black">{{item.todo}}</span>
                                     <div class="button">
                                         <button mat-icon-button color="warn" (click)="silVeri(item.id,'pending')">
                                             <mat-icon>delete</mat-icon>
@@ -48,14 +61,15 @@
                         </div>
 
                         <div class="example-container">
-                            <h5>In Progress</h5>
+                            <h5 style="text-align: center"><b>In Progress</b></h5>
 
                             <div cdkDropList #inProgressList="cdkDropList" [cdkDropListData]="data.inProgress"
                                 [cdkDropListConnectedTo]="[pendingList,doneList]" class="example-list"
                                 (cdkDropListDropped)="drop($event)">
-                                <div class="example-box" *ngFor="let item of data.inProgress" cdkDrag>
+                                <div class="example-box" style="background-color:rgba(193, 93, 0, 0.755)"
+                                    *ngFor="let item of data.inProgress" cdkDrag>
                                     <img class="svg" src="assets/svg/hourglass.svg">
-                                    <span class="todo-title">{{item.todo}}</span>
+                                    <span class="todo-title" style="color:black">{{item.todo}}</span>
                                     <div class="button">
                                         <button mat-icon-button color="warn" (click)="silVeri(item.id,'inProgress')">
                                             <mat-icon>delete</mat-icon>
@@ -68,14 +82,15 @@
                         </div>
 
                         <div class="example-container">
-                            <h5>Done</h5>
+                            <h5 style="text-align: center"><b>Done</b></h5>
 
                             <div cdkDropList #doneList="cdkDropList" [cdkDropListData]="data.done"
                                 [cdkDropListConnectedTo]="[inProgressList]" class="example-list"
                                 (cdkDropListDropped)="drop($event)">
-                                <div class="example-box" *ngFor="let item of data.done" cdkDrag>
+                                <div class="example-box" style="background-color:rgba(193, 93, 0, 0.755)"
+                                    *ngFor="let item of data.done" cdkDrag>
                                     <img class="svg" src="assets/svg/like.svg">
-                                    <span class="todo-title">{{item.todo}}</span>
+                                    <span class="todo-title" style="color:black">{{item.todo}}</span>
                                     <div class="button">
                                         <button mat-icon-button color="warn" (click)="silVeri(item.id,'done')">
                                             <mat-icon>delete</mat-icon>
@@ -93,8 +108,11 @@
                 </div>
             </div>
             <div class="row">
-                <div class="col-md-12 text-center mt-2">
+                <div style="margin-left:450px">
                     <small style="color:wheat">Copyright 2019 ToDo List App</small>
+                </div>
+                <div style="margin-left: 350px">
+                    <a routerLink="../about"><small style="color:wheat">About Todo List</small></a>
                 </div>
             </div>
         </div>
@@ -102,11 +120,11 @@
 </body>
 
 <body *ngIf="!isAuthenticated">
-        <div class="mt-4 pt-4">
-            <h3>You need to login to access your list ...</h3>
-            <br>
-            <h4>Click for go to Login page...</h4>
-            <br>
-            <button type="button" class="btn btn-outline-warning" routerLink="../login">Go to Login</button>
-        </div>
+    <div class="mt-4 pt-4">
+        <h3>You need to login to access your list ...</h3>
+        <br>
+        <h4>Click for go to Login page...</h4>
+        <br>
+        <button type="button" class="btn btn-outline-warning" routerLink="../login">Go to Login</button>
+    </div>
 </body>

@@ -56,6 +56,7 @@ export class HomeComponent implements OnInit {
       console.log(res);
       Object.keys(res).forEach((key) => {
         this.data[key] = res[key];
+        
       })
     }, (err) => { console.log(err); });
   }
@@ -76,9 +77,11 @@ export class HomeComponent implements OnInit {
       var listname=event.container.id
       var comefrom=event.previousContainer.id
       this.todoServices.updateLists(listname,comefrom,obj).subscribe((res)=>{
-        if(event.previousIndex-event.currentIndex>0)
+        if(event.previousIndex>event.currentIndex && listname===comefrom)
         {
           this.openSnackBar("Yukarı taşıdınız")
+          console.log(obj)
+        
         }
         this.getYourLists()
       },
@@ -87,7 +90,7 @@ export class HomeComponent implements OnInit {
 
 
   silVeri(id,listname) {
-    if(confirm('Bu maddeyi silmek istediğinize emin misiniz?'))
+    if(confirm('Bu maddeyi silmek istediğinize emin misiniz ?'))
     { 
       console.log(id)
       console.log(listname)
@@ -98,22 +101,22 @@ export class HomeComponent implements OnInit {
         console.log(err);
       });
     }
-    
   }
-
+  
   openSnackBar(message: string) {
-    this._snackBar.open(message, "Tamam.", {
-      duration: 2000
+    this._snackBar.open(message, "Tamam", {
+      duration: 2500
     });
   }
 
   logOut(){
-    this.authService.logOut();
-    localStorage.clear();
+      this.authService.logOut();
+      localStorage.clear();
+      this.openSnackBar("Çıkış başarılı !")
   }
   
   get isAuthenticated(){
     return this.authService.loggedIn();
   }
-  
+
 }
